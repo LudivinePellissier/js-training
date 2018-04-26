@@ -209,13 +209,7 @@
   ],
   "scripts": {
     "update": "git reset && git stash && git pull https://github.com/nan-ci/js.git master && git stash pop",
-    "test": "echo 'no tests'",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
-    "lint:js": "standard | snazzy",
-    "lint:css": "stylelint 'client/style/**/*.css'",
-    "lint:html": "htmllint 'client/**/*.html'",
-    "server": "nodemon server --ignore client",
-    "client": "http-server client"
+    "test": "./tester"
   },
   "dependencies": {
     "htmllint-cli": "0.0.7",
