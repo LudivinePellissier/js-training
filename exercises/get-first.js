@@ -9,6 +9,12 @@
 
 // Your code :
 
+const myArray = ["Hihi", 3, "Yo"]
+const getFirst = (array) => {
+    const firstElem = array[0]
+    return firstElem
+}
+
 //* Begin of tests
 const assert = require('assert')
 

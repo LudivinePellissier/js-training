@@ -1,7 +1,7 @@
 'use strict'
 
 /*
- * Create the `min` function that takes 2 number as arguments
+ * Create the function `min` that takes 2 number arguments
  * and returns the greatest
  * You must not just use `Math.min`, make your own.
  * see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sign
@@ -10,6 +10,10 @@
  */
 
 // Your code :
+
+const min = (n1, n2) => {
+    return n1 < n2 ? n1 : n2
+}
 
 //* Begin of tests
 const assert = require('assert')

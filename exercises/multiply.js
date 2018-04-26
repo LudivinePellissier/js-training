@@ -7,10 +7,35 @@
  *
  * @notions Primitive and Operators, Functions, While
  */
-
 // Your code :
 
+
+
+const multiply = (a, b) => {
+    let result = 0
+
+    if (a === 0 || b === 0){
+        return 0
+    } 
+    
+    if (b < 0) {
+        b = -b
+        a = -a
+    }
+
+    while (b > 0) {
+        result = result + a 
+        b--     
+    }
+
+    return result
+}
+
+
+
+
 //* Begin of tests
+
 const assert = require('assert')
 
 assert.strictEqual(typeof multiply, 'function')

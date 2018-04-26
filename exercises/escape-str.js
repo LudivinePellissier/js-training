@@ -1,13 +1,15 @@
 'use strict'
 
 /*
- * Create a constant variable named `escapeStr` that contains
- * the following specials characters: /\`"'
+ * Create a constant variables named `escapeStr` that contains specials
+ * characters: /\`"'
  *
  * @notions Primitive and Operators, Variables
  */
 
 // Your code :
+
+const escapeStr = `Je "teste" une phrase \`longue avec plein de 'caractères' bizarres pour dire que pour écrire / à l'envers il faut écrire le caractère deux \\ fois.`
 
 //* Begin of tests
 const assert = require('assert')

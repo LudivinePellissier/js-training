@@ -164,3 +164,7 @@ We greatly recommand you to add your own tests to this list
 
 *All the tests must be written using [assert](https://nodejs.org/api/assert.html)
 for `./tester` to work properly.*
+
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Travis master](https://img.shields.io/travis/LudivinePellissier/js-training.svg)](https://travis-ci.org/WildCodeSchool/js-training)
+[![Travis dev](https://img.shields.io/travis/LudivinePellissier/js-training/dev.svg)](https://travis-ci.org/LudivinePellissier/js-training/branches)

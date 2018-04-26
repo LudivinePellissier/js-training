@@ -1,12 +1,19 @@
 'use strict'
 
 /*
- * Create a `concatStr` function that takes 2 arguments and concatenate them
+ * Create a function `concatStr` that takes 2 arguments and concatenate them
  *
  * @notions Functions, Operators
  */
 
 // Your code :
+
+const concatStr = (a, b) => {
+    const result = a + b
+    return result
+}
+
+
 
 //* Begin of tests
 const assert = require('assert')
